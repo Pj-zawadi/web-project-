@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>WEB DEV</title>
+    </head>
+    <body>
+        <h1>Travels with PJ</h1>
+        <p>Hello my babies.</p>
+        <p>What is your definition of home? Is it just your permanent residence or something more?</p>
+        <p>For me, home is more than one place. It is several spaces, phases and scenes.</p>
+        <p>As a sole believer in a home away from home, I would be honored to walk your travels with you. </p>
+        <p>Let me be your home away from home</p>
+
+        <p>Feel free to book any destination of your choice:</p>
+        <ul type="square">
+            <li>Paris</li>
+            <li>New York</li>
+            <li>Bali</li>
+        </ul>
+
+        <p>Try out our:</p>
+          <dl>
+            <dt>Specials</dl>
+                <dd>Romantic Getaway</dd>
+            <dt>Packages</dt>
+                <dd>Solo Adventure</dd>
+          </dl>
+
+        <p>We also have some premium offers just for you:</p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Destination</th>
+                    <th>Duration</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Egypt</td>
+                    <td>4 days</td>
+                    <td>$2000</td>
+                </tr>
+                <tr>
+                    <td>Italy</td>
+                    <td>5 days</td>
+                    <td>$2500</td>
+                </tr>
+                <tr>
+                    <td>Japan</td>
+                    <td>6 days</td>
+                    <td>$3000</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Book Your Trip</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Adress:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="destination">Choose Your Destination:</label><br>
+            <select id="destination" name="destination" required>
+                <option value="">--Select--</option>
+                <option value="Paris">Paris</option>
+                <option value="New York">New York</option>
+                <option value="Bali">Bali</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Italy">Italy</option>
+                <option value="Japan">Japan</option>
+            </select><br><br>
+
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <input type="submit" value="Book Now">
+            </form>
+            </body>
+        </html>
