@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Travels with PJ - Your home away from home. Book unique travel experiences and premium offers.">
+    <meta charset="UTF-8">
+    <title>Travels with PJ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <span class="nav-logo">Travels with PJ</span>
+        <button class="nav-toggle" id="navToggle">&#9776;</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutus">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+        <h1>Travels with PJ</h1>
+        <p class="subtitle">Your home away from home</p>
+    </header>
+
+    <main>
+        <section class="intro" id="home">
+            <p>Welcome to a world of travels.</p>
+            <p>What is your definition of home? Is it just your permanent residence or something more?</p>
+            <p>For me, home is more than one place. It is several spaces, phases and scenes.</p>
+            <p>As a sole believer in a home away from home, I would be honored to walk your travels with you.</p>
+        </section>
+
+        <section class="aboutus" id="aboutus">
+            <h2>About Us</h2>
+            <p>
+                Travels with PJ is dedicated to making every journey feel like home. With years of experience in the travel industry, we curate unique experiences and premium offers for every kind of traveler. Let us be your guide to discovering new places while feeling comfortable and cared for every step of the way.
+            </p>
+        </section>
+
+        <section class="destinations">
+            <h2>Popular Destinations</h2>
+            <ul>
+                <li>
+                    <img src="images/paris.jpg" alt="Paris" class="destination-img">
+                    Paris
+                </li>
+                <li>
+                    <img src="images/newyork.jpg" alt="New York" class="destination-img">
+                    New York
+                </li>
+                <li>
+                    <img src="images/bali.jpg" alt="Bali" class="destination-img">
+                    Bali
+                </li>
+                <li>
+                    <img src="images/greece.jpg" alt="Greece" class="destination-img">
+                    Greece
+                </li>
+                <li>
+                    <img src="images/egypt.jpg" alt="Egypt" class="destination-img">
+                    Egypt
+                </li>
+                <li>
+                    <img src="images/italy.jpg" alt="Italy" class="destination-img">
+                    Italy
+                </li>
+                <li>
+                    <img src="images/japan.jpg" alt="Japan" class="destination-img">
+                    Japan
+                </li>
+            </ul>
+        </section>
+
+        <section class="offers">
+            <h2>Specials & Packages</h2>
+            <dl>
+                <dt>Specials</dt>
+                <dd>Romantic Getaway</dd>
+                <dt>Packages</dt>
+                <dd>Solo Adventure</dd>
+            </dl>
+        </section>
+
+        <section class="premium">
+            <h2>Premium Offers</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Destination</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Egypt</td>
+                        <td>4 days</td>
+                        <td>$2000</td>
+                    </tr>
+                    <tr>
+                        <td>Italy</td>
+                        <td>5 days</td>
+                        <td>$2500</td>
+                    </tr>
+                    <tr>
+                        <td>Japan</td>
+                        <td>6 days</td>
+                        <td>$3000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="booking" id="contact">
+            <h2>Book Your Trip</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="destination">Choose Your Destination:</label>
+                <select id="destination" name="destination" required>
+                    <option value="">--Select--</option>
+                    <option value="Paris">Paris</option>
+                    <option value="New York">New York</option>
+                    <option value="Bali">Bali</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Greece">Greece</option>
+                </select>
+
+                <label for="date">Travel Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Travels with PJ. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
