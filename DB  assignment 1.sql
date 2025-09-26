@@ -1,0 +1,4 @@
+CREATE DATABASE salesDB;
+USE mysql;
+DROP DATABASE IF EXISTS demo;
+
